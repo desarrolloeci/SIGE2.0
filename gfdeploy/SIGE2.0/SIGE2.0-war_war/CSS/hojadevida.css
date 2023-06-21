@@ -1,0 +1,51 @@
+/* 
+    Document   : hojadevida
+    Created on : 8/10/2012, 09:30:03 AM
+    Author     : Luis Alberto Salas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+html, body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #4E443C;
+    font-size: 14px;
+}
+
+.textoHV {
+    width: 75%;
+    margin: 0px auto;
+    text-align: justify;
+    white-space: pre-line;
+    line-height: 100%;
+    background: #F0F0F0;
+}
+
+.tituloHV {
+    width: 80%;
+    margin: 0px auto;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px ridge #000046;
+    border-radius: 10px;
+}
+
+.elementoHV {
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.set_hv {
+    width: 772px;
+    border: 1px solid #A70000;
+    border-radius: 5px;
+    padding: 50px 100px;
+    margin: 0px auto 200px auto;
+}
+

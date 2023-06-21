@@ -1,0 +1,251 @@
+/* 
+    Document   : comun
+    Created on : 25/07/2012, 11:24:31 AM
+    Author     : Luis Alberto Salas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+	background-image:url(../img/red-background.gif);
+        height:25px;
+	border-color: 666699;
+	border-width: 2;
+   }
+   
+.button_rojo {
+    border: 1px solid #A70000;
+    background: #FFFFFF;
+    width: 140px;
+    height: 40px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #A70000;
+    font-size: 20px;
+    -webkit-transition: anything 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.button_rojo:hover {
+    cursor: pointer;
+    background: #A70000;
+    color: #FFFFFF;
+}
+
+.field_set{
+    width:710px;
+    border-color: #A70000;
+    border-top-color: #A70000;
+    border-width: 1px;
+    
+
+}
+.footer {
+	width: 100%;
+	margin-top: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #A70000;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+
+   .radiosige {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: auto;
+        width: 30PX;
+	}
+        .inputsupercorto{
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 25PX;
+
+    }
+   .inputcorto{
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 100PX;
+
+    }
+     .inputmediano {
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 170PX;
+
+    }
+    .inputlargo {
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 270PX;
+
+    }
+    .inputxlargo{
+        background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 400PX;
+
+    }
+   .texto {
+	background-color: FBFCFD;
+	border-color: ddddff;
+	font-family: verdana;
+    }
+    .inputgraduado {
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 170PX;
+    }
+       .textocom {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	/*color: #666666;*/
+        color: #000046;
+
+	}
+        .titulocom {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*color: #666666;*/
+        color: #990000;
+	}
+          .titulocomblanco {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*color: #666666;*/
+        color: #ffffff;
+
+	}
+            .titulocomNegro {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	/*color: #666666;*/
+        color: #000000;
+
+	}
+   .textoimpre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #111111;
+	}
+   .visibleflash {
+	visibility: hidden;
+	}
+	.campotext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #F4F4F4;
+	height: auto;
+	}
+        .camponot {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFFF;
+	height: auto;
+	}
+	.textocomnb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #CCCCCC;
+	}
+        
+	body {
+           scrollbar-face-color: #6685CA;
+scrollbar-highlight-color: #6685CA;
+scrollbar-shadow-color: #6685CA;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#E5E5E5;
+scrollbar-drakshadow-color:#000000;
+	}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #EEEBFC;
+	border-color: #ddddff;
+        width: 170PX;
+
+}
+.div-despl ol {
+text-align:left;
+}
+.div-despl li {
+float:left;
+position: relATIVE;
+width: 150PX;
+font:Verdana, Arial, Helvetica, sans-serif;
+color:#003366;
+}
+.div-despl li ul {
+display: none;
+position: absolute;
+left: auto;
+}
+.div-despl ul li ul li {
+background-color:#F5F5F5;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #000000;
+text-indent:0px;
+text-align: absolute;
+height: 20px;
+}
+.div-despl li > ul {
+top: auto;
+left: auto;
+}
+.div-despl li:hover ul, .div-despl li.over ul {
+display: block;
+}
+textarea {
+   resize: vertical;
+   width: 380px;
+   height: 100px;   
+   border-color: #ddddff;
+}
+.centrohtm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -15% 0 0 -25%;
+}
+
+.menuprueba{   	
+	padding: 4px 0px;
+	border-bottom: 1px solid #fff;	
+	float:left;
+	list-style: none;
+        width: 100%;
+        /*Verdana, Arial, Helvetica, sans-serif*/
+        VALIGN:bottom;
+	font: 11px 'Verdana';
+	color:#000;
+}
+.menuprueba:hover {
+	border-bottom: 1px solid #990000 !important;
+        width: 100%;
+        cursor: pointer;
+	background: url(../imagenes/arrow3.jpg) no-repeat bottom right;
+}
+.menuprueba2{
+	float:left;
+	width: 100%;
+	height:24px;
+	background: url(../imagenes/bg2.png);
+	border-top:1px solid #fff;
+}

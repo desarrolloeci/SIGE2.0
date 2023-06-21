@@ -1,0 +1,77 @@
+/* 
+    Document   : imprimir
+    Created on : 8/05/2014, 11:05:55 AM
+    Author     : Luis Salas
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*body { 
+    color: #000; 
+    font: 100%/150% Georgia, "Times New Roman", Times, serif; 
+   padding: 4em 4em 4em 4em !important;
+}
+body, #contenido, #principal, #pie {
+  float: none !important;
+  width: auto !important;
+  margin:  0 !important;
+  padding: 4em 4em 4em 4em !important;
+ 
+}*/
+
+@page { size:A4 ; margin: 2cm }
+BODY { 
+   font: 8pt Georgia, "Times New Roman", Times, serif;  
+   margin: 10 0 10 0px; 
+   text-align: center; 
+   background-color: #ffffff; 
+   line-height: 150% ;
+} 
+
+#contenedor{ 
+    text-align: left; 
+    width: 600px; 
+    margin: auto; 
+} 
+#cabecera{ 
+   visibility:hidden; 
+   display: none; 
+} 
+
+#logo{ 
+   visibility:visible; 
+   display: block; 
+   margin-left: 20px; 
+} 
+
+#cuerpo{ 
+    margin: 10 0 10 0px; 
+} 
+#lateral{ 
+   visibility:hidden; 
+   display: none; 
+} 
+
+#pie{ 
+    background-color: #cccccc; 
+    padding: 3 10 3 10px; 
+    text-align:right; 
+   clear: both; 
+} 
+
+#principal{ 
+    background-color: #ffffff; 
+    padding: 0 0 0 20px; 
+    width: 570px; 
+    float: left; 
+} 
+
+#principal table{ 
+   background-color: #ffffff; 
+    width: 570px; 
+   border: 1px solid #cccccc; 
+   font-size:10pt; 
+}
+#tablacompeta{
+    page-break-inside:avoid;
+}
